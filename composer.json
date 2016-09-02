@@ -1,0 +1,20 @@
+{
+    "require": {
+        "php":">=5.5.1",
+        "phalcon/devtools": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "autoload":{
+        "classmap":[
+            "vendor/helpers/helpers.php"
+        ]
+    }
+}
